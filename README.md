@@ -1,16 +1,73 @@
-# React + Vite
+# User Panel (panelKarbaran) React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple user management panel built with **React** and **Vite**, using **Firebase Realtime Database** for storing and managing data.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://xrfanx.github.io/panelKarbaran/](https://xrfanx.github.io/panelKarbaran/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View the list of users in a table (styled with Bootstrap)
+- **Add** a new user
+- **Edit** an existing user's information (first name, last name, email) through a modal
+- **Delete** a user with a confirmation modal
+- Real-time data fetching and updates using Firebase Realtime Database
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Bootstrap](https://react-bootstrap.netlify.app/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Firebase Realtime Database](https://firebase.google.com/products/realtime-database)
+
+---
+
+## 🚀 Running the Project Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/xrfanx/panelKarbaran.git
+
+# Go into the project folder
+cd panelKarbaran
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+---
+
+## 📦 Build & Deploy
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+---
+
+## ⚠️ Note
+
+This project was built for learning/practice purposes, and its Firebase database is currently configured with open read/write access (anyone can read, write, or delete data). For real-world or production use, make sure to configure proper [Security Rules](https://firebase.google.com/docs/database/security).
+
+---
+
+## 📄 License
+
+This project is open for anyone to use for learning purposes.
