@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Shabnam fd;
+    transition: all 0.3s ease;
+}
+
+
+
+.SocialFooterContainer{
+    width: 100%;
+    height: 30vh;
+    border-top: 3px solid black;
+    border-radius: 10rem;
+    margin: 5vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SocialFooterSpan{
+    font-size: 2rem;
+    color: blue;
+}
+
+.SocialFooterLinkContainer{
+    width: 50%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vh;
+}
+
+.SocialFooterLink{
+    width: 10vh;
+    height: 10vh;
+}
+
+.Svg{
+    width: 100%;
+    height: 100%;
+    color: blue;
+}
